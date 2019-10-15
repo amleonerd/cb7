@@ -1,12 +1,14 @@
 {
-  "name": "test",
+  "name": "jsonserver",
   "version": "1.0.0",
-  "description": "",
-  "main": "array.js",
+  "description": "Fake REST API for testing",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "json:server": "json-server --watch db.json"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
 }

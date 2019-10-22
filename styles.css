@@ -1,0 +1,14 @@
+body {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+#blog {
+    float: right;
+    
+}
+
+#button {
+    line-height: 200px;
+}

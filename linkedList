@@ -1,0 +1,9 @@
+/*A linked list is a data structure that stores values in a 
+linear fashion. Each value is contained in its own node,
+ represented by a head (that is the first node in the list)
+  and a tail (that is the last). The link is a pointer/reference 
+  to another node object. Singular linked are the cases where each node has just one pointer to another node. 
+  Doubly linked lists are where each node has two links. Linked list have one way defined relationships
+
+Doubly/circular linked list- goes back and forth good for 
+multiple types of inventory FIFO (first in first out)*/

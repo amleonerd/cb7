@@ -1,0 +1,9 @@
+/*The Big O is a mathematical tool we can use 
+to evaluate and measure the efficiency of an Algorithm. 
+Generally computer programmers use this for worst-case 
+scenario but we could calculate the average and 
+even best case problem solving operation. 
+Big O can be used to describe the time required 
+or the space used (e.g. in memory or on disk) by an algorithm.
+In simple terms how we measure how long it will take for a program to run. 
+*/

@@ -1,18 +1,15 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="input.js"></script>
-    <link rel="stylesheet" href="stylr.css">
-    <title>Document</title>
-</head>
+<!DOCTYPE HTML>
+<html>  
 <body>
-      Qty:  <input type="text" id="qty" value="" />  
-   Food: <input type="text" id="food" value="" />
-<button onclick="getValue()">Place Order</button>
-<br> <br> <input id="hidden" type="reset" value="Reset" onclick="clearText()" />
-<p id="fastFoodApp"></p>   
+    <div class="menu">
+        <?php include 'menu.php'?>
+    </div>
+
+<form action="welcome_get.php" method="get">
+Name: <input type="text" name="name"><br>
+<input type="submit">
+ 
+</form>
 
 </body>
 </html>
